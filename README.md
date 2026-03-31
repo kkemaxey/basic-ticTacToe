@@ -16,7 +16,21 @@
 - **Win Tracking**: Keeps a scoreboard of your wins, losses, and draws.
 
 ## 🛠️ Tech Stack
-*   **C++**: In charge of core logic, visuals, and data orginization
+- **Language**: C++
+- **Dependencies**: Standard I/O and String handling libraries only (no external game engines).
+- **Input Format**: 
+    - **Names**: `First Last` (Full names required; alphabet characters only).
+    - **Moves**: `1-9` (Corresponds to the specific grid layout below).
+
+    ```
+    +---+---+---+
+    | 7 | 8 | 9 |
+    +---+---+---+
+    | 6 | 1 | 2 |
+    +---+---+---+
+    | 5 | 4 | 3 |
+    +---+---+---+
+    ```
 
 ## 🚀 Quick Start
 If you have the files locally and the g++ compiler, first navigate to the file location and just run `g++ ticTacToeFunctions.cpp ticTacToeDriver.cpp -o [your_desired_file_name].exe`.
